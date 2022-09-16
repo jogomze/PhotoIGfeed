@@ -6,36 +6,36 @@ header{
     background-color: white;
     padding: 10px;
 }
+div{
+    box-sizing: border-box;
+}
 header h1{
     margin: 0;
 }
 div.post{
     background-color: white;
+    margin-top: 10px;
 }
 div.post img{
     width: 100%;
 }
 div.post .post-header div:first-child{
-    display:flex;
+    display:inline-block;
     width: 80%;
-    text-align: right;
 }
 div.post .post-header div:last-child{
-    display:flex;
+    display:inline-block;
     width: 20%;
-    padding: 10px;
     text-align: right;
+    padding: 10px;
+    color: gray;
 }
 
 div.post h2, div.post p{
     padding: 10px;
+    margin: 0;
 }
 div.container{
     width: 600px;
     margin:auto;
-}
-p.date{
-    float: right;
-    margin-top: 0px;
-    margin-bottom: 20px;
 }
