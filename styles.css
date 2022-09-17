@@ -8,6 +8,7 @@ header{
 }
 div{
     box-sizing: border-box;
+    border-radius: 3%;
 }
 header h1{
     margin: 0;
@@ -17,7 +18,8 @@ div.post{
     margin-top: 10px;
 }
 div.post img{
-    width: 100%;
+    width: 90%;
+    padding: 30px;
 }
 div.post .post-header div:first-child{
     display:inline-block;
@@ -39,3 +41,4 @@ div.container{
     width: 600px;
     margin:auto;
 }
+
